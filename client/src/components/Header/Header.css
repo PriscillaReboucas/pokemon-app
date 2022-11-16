@@ -1,0 +1,24 @@
+.header {
+  background: rgb(253,217,45);
+background: linear-gradient(0deg, rgba(253,217,45,1) 0%, rgba(45,253,92,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header__title {
+  color: red;
+  text-shadow: 1px 1px 1px rgb(6, 0, 0), 2px 2px 1px rgb(255, 255, 252); 
+}
+
+.header__description {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: blue;
+
+  text-shadow: 1px 1px 1px rgb(6, 0, 0), 2px 2px 1px rgb(255, 255, 252); 
+}
+
+.header__description:hover {
+  border-bottom: 1px solid black;
+}

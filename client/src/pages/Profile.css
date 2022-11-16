@@ -1,0 +1,63 @@
+.card--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 60vw;
+  height: 60vh;
+  margin-left: 20vw;
+  margin-top: 3rem;
+  border-radius: .5rem;
+  box-shadow: 5px 8px 15px rgb(63, 62, 62); 
+}
+
+.card__profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card__profile img {
+  width: 300px;
+  height: auto;
+}
+
+.card__details {
+  width: 100%;
+}
+
+.black{
+  background-color: rgb(76, 71, 71);
+}
+
+.blue {
+  background-color: lightblue;
+}
+
+.brown {
+  background-color: burlywood;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.green {
+  background-color: rgb(143, 229, 15);
+}
+
+.pink {
+  background-color: rgb(241, 213, 222);
+}
+
+.purple {
+  background-color: rgb(213, 58, 213);
+}
+
+.red {
+  background-color: rgb(234, 91, 91);
+}
+
+.yellow {
+  background-color: lightyellow;
+}

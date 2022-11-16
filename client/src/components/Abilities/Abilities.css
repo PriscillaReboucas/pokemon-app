@@ -1,0 +1,32 @@
+.abilities--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 5px 8px 15px rgb(63, 62, 62); 
+  height: 5rem;
+  border-radius: .5rem;
+  width: 80%;
+}
+
+.abilities__names--container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.abilities__names{
+  margin-top: -.5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  background-color: #a29f9f62;
+  border-radius: .5rem;
+  padding: 2px;
+  margin-right: 1px;
+  width: 100%;  
+} 
+
+

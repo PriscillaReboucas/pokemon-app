@@ -1,0 +1,22 @@
+.search--container {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  padding: .1rem;
+  background-color: rgb(234, 234, 234);
+  padding: 3px;
+  border-radius: .5rem;
+}
+
+.search {
+  border: none;
+  border-radius: .5rem;
+  height: 3rem;
+  width: 20%;
+}
+
+.filter {
+border-radius: .5rem;
+border: none;
+cursor: pointer;
+}
